@@ -21,3 +21,20 @@ ptr->link = top;
 *curr ++; 
 } 
 }                      // Till here the code is from Aditya Raj
+
+// R171219001's part start here
+
+
+void pop(int *curr) 
+{ 
+if(*curr == 0) 
+cout<<“\nStack is EMPTY\n ”; 
+else 
+{ 
+Node *ptr = top; 
+top = top -> link; 
+delet(ptr); 
+*curr--; 
+} 
+}
+// R171219001's part end here.
