@@ -42,3 +42,4 @@ elif choice == '5' :
    
 else:
     print("Invalid input")                      #Author is ADITYA RAJ
+#This is the full code of a calculator
